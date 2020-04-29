@@ -1,0 +1,50 @@
+{
+  "name": "mmd",
+  "version": "1.0.0",
+  "description": "For saving capitals for individuals",
+  "main": "index.js",
+  "scripts": {
+   "start" : "node app.js"
+  },
+  "author": "Adewumi Sunkanmi <sunkanmiadewumi@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "verbose": false
+  },
+  "dependencies": {
+    "@devmastery/pipe": "^0.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cluster": "^0.7.7",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "*",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "helmet": "^3.22.0",
+    "jest-environment-node": "^25.1.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7",
+    "netlify-lambda": "^1.6.3",
+    "nodemailer": "^6.4.6",
+    "paystack-node": "^0.2.4",
+    "rimraf": "^2.6.3",
+    "serverless-http": "^2.3.2",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "faker": "^4.1.0",
+    "jest": "^24.3.1",
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3"
+  }
+}
